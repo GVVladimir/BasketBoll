@@ -1,6 +1,7 @@
 {
   "name": "basketboll",
   "private": true,
+  "homepage": "https://gvvladimir.github.io/BasketBoll/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
