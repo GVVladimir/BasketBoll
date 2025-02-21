@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "Druk";
+  src: url("fonts/fonts/Druk/DrukWideCyr-Bold.woff2");
+}
+
+@font-face {
+  font-family: "Commissioner";
+  src: url("fonts/fonts/Commissioner/Commissioner-Bold.woff");
+}
+
+body {
+  font-family: "Druk", sans-serif;
+  margin-bottom: 50px;
+
+}
+
+.div {
+  margin: 0 auto;
+  max-width: 1900px;
+  background-color: rgb(239, 239, 239, 1);
+  overflow: hidden;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul li {
+  list-style-type: none;
+}

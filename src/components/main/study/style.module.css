@@ -1,0 +1,394 @@
+.vector_green {
+  display: none;
+}
+
+.main_study_fotoShool2{
+  display: none;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main {
+  margin: 0 auto;
+  padding: 0 30px;
+  max-width: 1880px;
+  min-height: 1149;
+  background: white;
+  border-radius: 20px;
+}
+
+.section_play_header {
+  margin: 34px 0;
+  padding: 30px 14px;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.section_play_header h2 {
+  font-family: "Druk", serif;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 96px;
+}
+
+.section_play_header a {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  font-size: 20px;
+  color: orangered;
+}
+
+.section_play_header a:hover {
+  color: green;
+  .vector_orendg {
+    display: none;
+  }
+  .vector_green {
+    display: block;
+  }
+}
+
+.main_study {
+  display: flex ;
+  gap: 30px;
+}
+
+.main_study_block{
+  width: 100%;
+}
+
+.main_study_fotoShool {
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: 611px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../../../img/fotoShool.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 20px; 
+}
+
+.main_study_fotoShool h3 {
+  max-width: 753px;
+  padding-left: 30px;
+  padding-top: 30px;
+  color: white;
+  font-family: "Druk", serif;
+  font-size: 55px;
+  line-height: 58px;
+}
+
+.main_study_fotoShool2 h3 {
+  max-width: 753px;
+  padding-left: 30px;
+  padding-top: 30px;
+  color: white;
+  font-family: "Druk", serif;
+  font-size: 55px;
+  line-height: 58px;
+}
+
+.main_study_fotoShool p {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  max-width: 305px;
+  height: 33px;
+  background: white;
+  border-radius: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(46, 141, 67, 1);
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.main_study_fotoShool2 p {
+  margin-left: 30px;
+  margin-bottom: 30px;
+  max-width: 305px;
+  height: 33px;
+  background: white;
+  border-radius: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(46, 141, 67, 1);
+  font-size: 12px;
+  line-height: 17px;
+}
+
+.main_study_choosingСoach {
+  max-width: 100%;
+  min-height: 294px;
+  background: rgb(46, 141, 67, 1);
+  border-radius: 20px;
+  color: white;
+}
+
+.main_study_choosingСoach h3 {
+  padding-top: 24px;
+  padding-left: 24px;
+  margin-bottom: 86px;
+  max-width: 881px;
+  min-height: 116px;
+  font-family: Druk;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: 0px;
+}
+
+.main_study_section_input {
+  margin-left: 24px;
+  max-width: 525px;
+  min-height: 69px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.main_study_choosingСoach_input {
+  font-family: "Druk";
+  height: 32px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background: rgb(85, 164, 85);
+  text-align: center;
+  padding: 0 20px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.main_study_choosingСoach_input:hover {
+  color: green;
+  background: white;
+}
+
+.main_study_video {
+ max-width: 617px;
+  min-height: 925px;
+  border-left: 1px solid rgb(196, 196, 196, 1);
+}
+
+.main_study_foto {
+  width: 100%;
+}
+
+.main_study_video h6 {
+  padding-left: 24px;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.main_study_new {
+  min-height: 172px;
+  margin-left: 14px;
+  padding-bottom: -10px;
+  margin-top: 100px;
+  display: flex;
+  gap: 20px;
+  border-bottom: 1px solid rgb(154, 152, 152);
+}
+
+.main_study_new img {
+  min-height: 152px;
+}
+
+.main_study_new_text {
+  margin-bottom: 50px;
+  max-width: 307px;
+  font-size: 16px;
+}
+
+.main_study_new_data {
+  max-width: 144px;
+  height: 33px;
+  padding: 8px 12px;
+  background: rgb(235, 234, 234);
+  border-radius: 39px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.main_study_new2 {
+  margin-left: 14px;
+  margin-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid rgb(154, 152, 152);
+}
+
+.main_study_new2 a {
+  font-family: "Druk";
+  color: orangered;
+  font-size: 20px;
+}
+
+.main_study_new2_text { 
+  margin-top: 140px;
+}
+
+.main_study_new2_text_head { 
+  font-size: 18px;
+  margin-bottom: 24px;
+ 
+}
+
+.main_study_new2_text data {
+  padding: 8px 12px;
+  background: rgb(235, 234, 234);
+  border-radius: 39px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.main_study_terms {
+  height: 264px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 14px;
+  margin-top: 24px;
+}
+
+.main_study_terms h4 {
+  font-size: 24px;
+}
+
+.main_study_terms section {
+  display: flex;
+  gap: 5px;
+}
+
+.main_study_terms input {
+  font-family: "Druk";
+  min-height: 33px;
+  padding: 0 8px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 39px;
+  background: rgb(235, 234, 234);
+  border: none;
+}
+
+.main_study_terms input:hover {
+  background: black;
+  color: white;
+}
+
+@media (max-width: 1380px) {
+  .main_study_fotoShool h3 {
+    font-size: 45px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 1300px){
+  .main_study_video{
+    display: none;
+  }
+ 
+}
+
+
+@media (max-width: 1120px){
+  .main_study_fotoShool{
+display: none;
+  }
+  .main_study_fotoShool2{
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: 611px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../../../img/fotoShool2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  border-radius: 20px; 
+}
+
+
+.main_study_choosingСoach h3 {
+  font-size: 38px;
+  line-height: 47.6px;  
+}
+}
+
+
+@media (max-width: 880px) {
+  .section_play_header h2 {
+    font-size: 60px;
+    line-height: 76px;
+  }
+}
+
+@media(max-width: 780px){
+  .main_study_fotoShool2 h3 {
+    width: 80%;
+    text-align: left;
+    font-size: 45px;
+    line-height: 38px;
+  }
+}
+
+@media (max-width: 620px){
+.section_play_header img {
+  display: none;
+}
+}
+
+@media (max-width: 580px) {
+  .section_play_header h2 {
+   
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .section_play_header {
+    padding: 20px 8px;
+  }
+}
+
+@media(max-width: 520px){
+  .main_study_fotoShool2 h3 {
+    width: 80%;
+    text-align: left;
+    font-size: 35px;
+    line-height: 28px;
+  }
+  .main_study_choosingСoach h3 {
+    font-size: 28px;
+    line-height: 37.6px;  
+  }
+}
+
+@media (max-width: 450px) {
+  .section_play_header h2 {
+    font-size: 30px;
+    line-height: 56px;
+  }
+  .section_play_header {
+    padding: 20px 0px;
+    margin: 0;
+  }
+
+  .section_play_header a {
+    gap: 5px;
+    padding: 0;
+  }
+
+  .main {
+    padding: 0 10px;
+  }
+}

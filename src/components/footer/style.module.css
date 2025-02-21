@@ -1,0 +1,144 @@
+.footer {
+  position: relative;
+  margin-top: 100px;
+  margin-left: 10px;
+  display: flex;
+  height: auto;
+  width: auto;
+  border-top: 1px solid rgb(157, 155, 155);
+  padding-top: 24px;
+}
+
+.footer_text {
+  max-width: 65%;
+  height: 811px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer_header {
+  max-width: 1694px;
+  font-size: 56px;
+}
+
+.footer_header_os {
+  margin-top: 44px;
+  display: flex;
+  gap: 40px;
+}
+
+.style.footer_qrBall {
+  display: flex;
+  flex-direction: column;
+  background-position: right;
+  position: relative;
+}
+
+.footer_footerBall {
+  position: absolute;
+  margin-top: 300px;
+  width: 791px;
+  height: 591px;
+}
+
+.footer_qr {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 100px;
+  width: 352px;
+  height: 401px;
+  z-index: 20;
+}
+
+figure {
+}
+
+@media (max-width: 1608px) {
+  .footer_footerBall {
+    margin-left: -50px;
+  }
+
+  .footer_qr {
+    margin-left: 80px;
+    margin-bottom: -20px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .footer_qr {
+    margin-left: 60px;
+    width: 282px;
+    height: 321px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer_qr {
+    display: none;
+  }
+
+  .footer_footerBall {
+    width: 391px;
+    height: 991px;
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .footer_footerBall {
+    margin-left: -10px;
+  }
+  .footer_header_os {
+    max-width: 234px;
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+  .footer_footerBall {
+    margin-left: -40px;
+  }
+  .footer_header {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 600px) {
+  .footer_footerBall {
+    width: 231px;
+    height: 991px;
+  }
+}
+
+@media (max-width: 500px) {
+  .footer_footerBall {
+    width: 191px;
+    height: 691px;
+    margin-top: -30px;
+    margin-left: -10px;
+  }
+  .footer_header {
+    font-size: 30px;
+  }
+  .footer_text {
+    height: 611px;
+  }
+  .footer_header_os {
+    width: 134px;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 420px) {
+  .footer_footerBall {
+    margin-top: -30px;
+  }
+  .footer_header {
+    font-size: 20px;
+  }
+}
